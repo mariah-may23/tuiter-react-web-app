@@ -1,0 +1,113 @@
+div{
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgb(47,51,54);
+}
+body{
+    font-family: "Helvetica Neue", serif;
+    background-color: black;
+    color: white;
+}
+h1{
+    color: white;
+    font-size: 20px;
+    margin: 12px 0 0 16px;
+}
+h3{
+    font-size: 15px;
+
+}
+
+.wd-post-header{
+    margin: 12px 0 0 12px;
+}
+.wd-right-text{
+    font-size: 15px;
+    color: white;
+    max-width: 506px;
+    padding-left: 72px;
+    margin-bottom: 12px;
+}
+
+.wd-subtext{
+    font-size: 13px;
+    color: rgb(110,118,125);
+    margin: 0 0 0 12px;
+}
+
+.wd-img-circle{
+    border-radius: 50%;
+    width: 48px;
+    height: 48px;
+    float: left;
+    position: relative;
+    top: +12px;
+    left: +16px;
+
+
+}
+
+.wd-post-img {
+
+    width: 506px;
+    height: 264px;
+    border-radius: 10% 10% 0 0;
+    position: relative;
+
+
+}
+
+figure {
+
+    border-radius: 10% 10% 5% 5%;
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgb(47, 51, 54);
+    display: flex;
+    flex-flow: column;
+
+    max-width: 506px;
+    margin: 0 0 0 72px;
+
+}
+
+
+figcaption {
+
+    padding: 12px;
+
+}
+.wd-nav-tabs{
+    padding-left: 0;
+    color: gray;
+    display: flex;
+    align-items: stretch;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+.wd-search-icon{
+    padding-left: 12px;
+}
+
+.wd-nav-tabs li{
+    font-size: 15px;
+    flex: 0 1 auto;
+    list-style-type: none ;
+    display: inline-block;
+}
+
+.wd-nav-tabs .wd-selected {
+    color: red;
+
+}
+.wd-nav-tabs .wd-unselected {
+    color: gray;
+
+}
+
+
+
+
+
+
