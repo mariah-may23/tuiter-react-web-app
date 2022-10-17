@@ -9,7 +9,7 @@ const NavigationSidebar = (active) => {
     return(`
 
    <div class="list-group">
-     <a href="https://en.wikipedia.org/wiki/The_Lord_of_the_Rings"
+                    <a href="https://en.wikipedia.org/wiki/The_Lord_of_the_Rings"
                        class="list-group-item list-group-item-action wd-color wd-follow">
                         <i class="fab fa-twitter fa-1x"></i><br/>
                     </a>
