@@ -25,6 +25,11 @@ body {
 
 }
 
+.wd-unselected{
+    color: gray;
+
+}
+
 
 
 .wd-color{
@@ -52,6 +57,20 @@ body {
     border-bottom-right-radius: 15px;
 }
 
+
+figure {
+    border: 1px solid grey;
+    padding: 1px;
+    display: flex;
+    flex-flow: column;
+    border-radius: 5%;
+
+
+}
+
+.wd-bgcolor{
+    background-color: black;
+}
 
 
 
