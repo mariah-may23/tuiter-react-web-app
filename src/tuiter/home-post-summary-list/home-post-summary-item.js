@@ -49,7 +49,7 @@ const PostSummaryItem = (
 
             <div className="row">
                 <div className="text-secondary">
-                    <img className="rounded-circle" height={48} src={`/images/${post.avataricon}`}/>
+                    <img className="rounded-circle" height={48} src={`/images/${post.avataricon}`} alt={""}/>
                     <span className="fw-bolder text-black">&nbsp;{post.topic}</span>
                     &nbsp;{post.userName}
                     <i className="bi bi-patch-check text-bg-primary rounded-circle"/>
@@ -69,13 +69,13 @@ const PostSummaryItem = (
                 </div>
             </div>
             <div className="row">
-                {post.thread ?  <img width={70} className="float-end rounded-5 mb-3 mt-3" src={`/images/${post.image}`}/> : ""}
+                {post.thread ?  <img width={70} className="float-end rounded-5 mb-3 mt-3" src={`/images/${post.image}`} alt={""}/> : ""}
             </div>
 
             {post.thread ? "" :
              <div className="row border rounded mt-2 mb-3">
                  <div className="text-secondary">
-                     <img className="rounded-circle" height={48} src={`/images/${post.postimg}`}/>
+                     <img className="rounded-circle" height={48} src={`/images/${post.postimg}`} alt={""}/>
                      <span className="fw-bolder text-black">&nbsp;{post.posttitle}</span>
                      &nbsp;{post.postat}
                      <i className="bi bi-patch-check text-bg-primary rounded-circle"/>
