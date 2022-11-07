@@ -3,6 +3,7 @@ import Styles from "./styles";
 import ConditionalOutput
     from "./conditional-output";
 import TodoList from "./todo/todo-list";
+import C from "./conditional-output/practice.js"
 
 function Assignment6() {
     return (
@@ -12,6 +13,7 @@ function Assignment6() {
             <Styles/>
             <Classes/>
             <TodoList/>
+            <C/>
         </div>
     );
 }

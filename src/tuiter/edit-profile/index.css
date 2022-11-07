@@ -1,0 +1,45 @@
+.wd-nudge-up {
+    top: -60px;
+    border-radius: 100%;
+    display: block;
+
+
+
+}
+
+.wd-nudge {
+    top: +255px;
+    left: +255px;
+    border-radius: 100%;
+    display: block;
+
+
+
+}
+.wd-nudge2 {
+    top: +255px;
+    left: +400px;
+    border-radius: 100%;
+    display: block;
+
+
+
+}
+.wd-nudge3 {
+    top: +510px;
+    left: +120px;
+    border-radius: 100%;
+    display: block;
+
+
+
+}
+.wd-textbox{
+    border-color: grey;
+}
+
+
+.wd-grey {
+    opacity: 0.4;
+    filter: alpha(opacity=40);
+}
