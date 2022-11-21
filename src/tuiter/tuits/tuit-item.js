@@ -30,7 +30,7 @@ const TuitItem = (
 
             <div className="row">
                 <div className="text-secondary">
-                    <img className="rounded-circle" height={48} src={`${tuit.image}`} alt={""}/>
+                    <img className="rounded-circle" height={48} src={`/images/${tuit.image}`} alt={""}/>
                     <span className="fw-bolder text-black">&nbsp;{tuit.topic}</span>
                     &nbsp;{tuit.handle}
                     <i className="bi bi-patch-check text-bg-primary rounded-circle"/>
