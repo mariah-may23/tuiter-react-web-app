@@ -179,6 +179,7 @@ const greeting2 = `Logged in: ${LoggedIn ? "Yes" : "No"}`;
 console.log(greeting2);
 
 
+
 const init = () => {
     console.log('Hello world from jQuery');
     /* do the rest of the lab work here */

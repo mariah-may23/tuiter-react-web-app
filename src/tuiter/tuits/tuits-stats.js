@@ -17,7 +17,6 @@ const TuitStats = (
         }
     }
 ) => {
-
     const dispatch = useDispatch();
 
     return(
